@@ -337,12 +337,12 @@ small a {
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0);
         min-width: 230px;
         opacity: 0;
-        transform: translate(0, 48%);
+        /* transform: translate(0, 48%); */
         visibility: hidden;
-        transition: transform .8s, box-shadow .3s, opacity .5s, visibility .5s;
+        /* transition: transform .8s, box-shadow .3s, opacity .5s, visibility .5s; */
     }
     .menu-open .main-nav {
-        transform: translate(0, 51%);
+        transform: translate(0, 56%);
         opacity: 1;
         visibility: visible;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
